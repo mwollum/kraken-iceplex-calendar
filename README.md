@@ -39,31 +39,4 @@ Copy one of these URLs and add it as a calendar subscription:
 
 ---
 
-## What's included
-
-The **Hockey** calendar includes everything hockey: drop-in skater, drop-in goalie, novice sessions, stick & puck, adult morning skills, and goalie development.
-
-The **Stick & Puck** calendar is stick & puck sessions only (all variants, including female-only and family/youth).
-
-The **Public Skate** calendar includes all public skate sessions (weekday, weekend, matinee, sensory, and special event skates).
-
-Each event links directly to the Daysmart registration page so you can sign up right from your calendar.
-
----
-
-## How it works
-
-A GitHub Actions workflow runs every morning and executes [`kraken_calendar.py`](kraken_calendar.py), which fetches the schedule from the Kraken Iceplex website's public API and writes updated `.ics` files to this repo. The raw GitHub URLs above always point to the latest version.
-
-### Run it yourself
-
-```bash
-python3 kraken_calendar.py          # generates all three .ics files
-python3 kraken_calendar.py --days 120   # fetch further ahead
-```
-
-No dependencies beyond Python 3.9+.
-
----
-
 *Not affiliated with the Seattle Kraken or Kraken Community Iceplex. Calendar data sourced from the public schedule at [krakencommunityiceplex.com](https://www.krakencommunityiceplex.com/public-drop-in-calendar/).*
