@@ -13,6 +13,7 @@ Copy one of these URLs and add it as a calendar subscription:
 | Calendar | Subscribe URL |
 |---|---|
 | Hockey drop-in (all levels) | `https://raw.githubusercontent.com/mwollum/kraken-iceplex-calendar/main/kraken_hockey.ics` |
+| Stick & Puck | `https://raw.githubusercontent.com/mwollum/kraken-iceplex-calendar/main/kraken_stick_puck.ics` |
 | Public Skate | `https://raw.githubusercontent.com/mwollum/kraken-iceplex-calendar/main/kraken_public_skate.ics` |
 | Everything | `https://raw.githubusercontent.com/mwollum/kraken-iceplex-calendar/main/kraken_all.ics` |
 
@@ -40,12 +41,9 @@ Copy one of these URLs and add it as a calendar subscription:
 
 ## What's included
 
-The **Hockey** calendar includes:
-- Drop-In Skater
-- Drop-in Goalie
-- Novice Drop-In Skater / Goalie
-- Stick & Puck (all variants)
-- Adult Morning Skills, Goalie Development sessions
+The **Hockey** calendar includes everything hockey: drop-in skater, drop-in goalie, novice sessions, stick & puck, adult morning skills, and goalie development.
+
+The **Stick & Puck** calendar is stick & puck sessions only (all variants, including female-only and family/youth).
 
 The **Public Skate** calendar includes all public skate sessions (weekday, weekend, matinee, sensory, and special event skates).
 
