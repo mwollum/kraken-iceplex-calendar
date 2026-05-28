@@ -1,0 +1,36 @@
+name: Update Calendar
+
+on:
+  schedule:
+    # Runs every day at 8 AM UTC (1 AM Pacific / midnight during DST)
+    - cron: "0 8 * * *"
+  workflow_dispatch: # allow manual trigger from GitHub UI
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate ICS files
+        run: python3 kraken_calendar.py --days 90
+
+      - name: Commit updated calendars
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add kraken_hockey.ics kraken_public_skate.ics kraken_all.ics
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: update calendar $(date -u +'%Y-%m-%d')"
+            git push
+          fi
