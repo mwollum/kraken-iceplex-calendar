@@ -87,10 +87,11 @@ def build_ics(events: list[dict], calendar_name: str) -> str:
 
 
 VARIANTS = [
-    ("hockey",     "kraken_hockey.ics",       "Kraken Iceplex — Hockey Drop-In"),
-    ("stickpuck",  "kraken_stick_puck.ics",   "Kraken Iceplex — Stick & Puck"),
-    ("skate",      "kraken_public_skate.ics", "Kraken Iceplex — Public Skate"),
-    ("all",        "kraken_all.ics",          "Kraken Iceplex — All Events"),
+    ("hockey",          "kraken_hockey.ics",            "Kraken Iceplex — Hockey Drop-In"),
+    ("stickpuck",       "kraken_stick_puck.ics",        "Kraken Iceplex — Stick & Puck"),
+    ("stickpuck_open",  "kraken_stick_puck_open.ics",   "Kraken Iceplex — Stick & Puck (Open)"),
+    ("skate",           "kraken_public_skate.ics",      "Kraken Iceplex — Public Skate"),
+    ("all",             "kraken_all.ics",               "Kraken Iceplex — All Events"),
 ]
 
 
@@ -99,6 +100,11 @@ def filter_events(events: list[dict], sport: str) -> list[dict]:
         return [e for e in events if e.get("sportId") == SPORT_HOCKEY]
     if sport == "stickpuck":
         return [e for e in events if "stick & puck" in e.get("title", "").lower()]
+    if sport == "stickpuck_open":
+        return [e for e in events
+                if "stick & puck" in e.get("title", "").lower()
+                and "female" not in e.get("title", "").lower()
+                and "14 and under" not in e.get("title", "").lower()]
     if sport == "skate":
         return [e for e in events if e.get("sportId") == SPORT_PUBLIC_SKATE]
     return events

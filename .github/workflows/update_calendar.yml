@@ -27,7 +27,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add kraken_hockey.ics kraken_stick_puck.ics kraken_public_skate.ics kraken_all.ics
+          git add kraken_hockey.ics kraken_stick_puck.ics kraken_stick_puck_open.ics kraken_public_skate.ics kraken_all.ics
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else

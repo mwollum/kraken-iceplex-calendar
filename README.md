@@ -13,7 +13,8 @@ Copy one of these URLs and add it as a calendar subscription:
 | Calendar | Subscribe URL |
 |---|---|
 | Hockey drop-in (all levels) | `https://raw.githubusercontent.com/mwollum/kraken-iceplex-calendar/main/kraken_hockey.ics` |
-| Stick & Puck | `https://raw.githubusercontent.com/mwollum/kraken-iceplex-calendar/main/kraken_stick_puck.ics` |
+| Stick & Puck (all) | `https://raw.githubusercontent.com/mwollum/kraken-iceplex-calendar/main/kraken_stick_puck.ics` |
+| Stick & Puck (open) | `https://raw.githubusercontent.com/mwollum/kraken-iceplex-calendar/main/kraken_stick_puck_open.ics` |
 | Public Skate | `https://raw.githubusercontent.com/mwollum/kraken-iceplex-calendar/main/kraken_public_skate.ics` |
 | Everything | `https://raw.githubusercontent.com/mwollum/kraken-iceplex-calendar/main/kraken_all.ics` |
 

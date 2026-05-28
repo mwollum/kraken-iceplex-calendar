@@ -1,7 +1,7 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Kraken Community Iceplex//Calendar//EN
-X-WR-CALNAME:Kraken Iceplex — Stick & Puck
+X-WR-CALNAME:Kraken Iceplex — Stick & Puck (Open)
 X-WR-TIMEZONE:America/Los_Angeles
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
@@ -281,26 +281,6 @@ UID:731c0e79c007e1013759adb974447cf2@krakencommunityiceplex.com
 SUMMARY:Stick & Puck
 DTSTART:20260510T144500Z
 DTEND:20260510T160000Z
-LOCATION:Kraken Community Iceplex\, 925 Westlake Ave N\, Seattle\, WA 98109
-DESCRIPTION:Register at: https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-05-10&sport_ids=20
-URL:https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-05-10&sport_ids=20
-DTSTAMP:20260528T062343Z
-END:VEVENT
-BEGIN:VEVENT
-UID:69bb253c073cd12ea8e7024fe7ff5025@krakencommunityiceplex.com
-SUMMARY:LTP Family Stick & Puck (14 and under)
-DTSTART:20260510T151500Z
-DTEND:20260510T164500Z
-LOCATION:Kraken Community Iceplex\, 925 Westlake Ave N\, Seattle\, WA 98109
-DESCRIPTION:Register at: https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-05-10&sport_ids=20
-URL:https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-05-10&sport_ids=20
-DTSTAMP:20260528T062343Z
-END:VEVENT
-BEGIN:VEVENT
-UID:33eb7add28f5ada33979b07c43d18bda@krakencommunityiceplex.com
-SUMMARY:Stick & Puck (Female only)
-DTSTART:20260510T183000Z
-DTEND:20260510T194500Z
 LOCATION:Kraken Community Iceplex\, 925 Westlake Ave N\, Seattle\, WA 98109
 DESCRIPTION:Register at: https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-05-10&sport_ids=20
 URL:https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-05-10&sport_ids=20
@@ -717,16 +697,6 @@ URL:https://member.daysmartrecreation.com/#/online/kraken/event-registration?dat
 DTSTAMP:20260528T062343Z
 END:VEVENT
 BEGIN:VEVENT
-UID:03f30d5efde5bd8083d16dc8231c51b5@krakencommunityiceplex.com
-SUMMARY:LTP Family Stick & Puck (14 and under)
-DTSTART:20260523T161500Z
-DTEND:20260523T171500Z
-LOCATION:Kraken Community Iceplex\, 925 Westlake Ave N\, Seattle\, WA 98109
-DESCRIPTION:Register at: https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-05-23&sport_ids=20
-URL:https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-05-23&sport_ids=20
-DTSTAMP:20260528T062343Z
-END:VEVENT
-BEGIN:VEVENT
 UID:45801de91b9bf8d8238de0d8b9ab96b4@krakencommunityiceplex.com
 SUMMARY:Stick & Puck
 DTSTART:20260523T173000Z
@@ -777,16 +747,6 @@ URL:https://member.daysmartrecreation.com/#/online/kraken/event-registration?dat
 DTSTAMP:20260528T062343Z
 END:VEVENT
 BEGIN:VEVENT
-UID:32932468c15474cc1644e11dfbf7abe5@krakencommunityiceplex.com
-SUMMARY:LTP Family Stick & Puck (14 and under)
-DTSTART:20260524T153000Z
-DTEND:20260524T164500Z
-LOCATION:Kraken Community Iceplex\, 925 Westlake Ave N\, Seattle\, WA 98109
-DESCRIPTION:Register at: https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-05-24&sport_ids=20
-URL:https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-05-24&sport_ids=20
-DTSTAMP:20260528T062343Z
-END:VEVENT
-BEGIN:VEVENT
 UID:4f29f46dc021db6fa00caa5c64f0cbfe@krakencommunityiceplex.com
 SUMMARY:Stick & Puck
 DTSTART:20260524T171500Z
@@ -797,30 +757,10 @@ URL:https://member.daysmartrecreation.com/#/online/kraken/event-registration?dat
 DTSTAMP:20260528T062343Z
 END:VEVENT
 BEGIN:VEVENT
-UID:54abc8cd37a2332fd6ef2f00374dfd19@krakencommunityiceplex.com
-SUMMARY:LTP Family Stick & Puck (14 and under)
-DTSTART:20260524T190000Z
-DTEND:20260524T203000Z
-LOCATION:Kraken Community Iceplex\, 925 Westlake Ave N\, Seattle\, WA 98109
-DESCRIPTION:Register at: https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-05-24&sport_ids=20
-URL:https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-05-24&sport_ids=20
-DTSTAMP:20260528T062343Z
-END:VEVENT
-BEGIN:VEVENT
 UID:2c096f489d044139568aeacc511e8652@krakencommunityiceplex.com
 SUMMARY:Stick & Puck
 DTSTART:20260524T203000Z
 DTEND:20260524T214500Z
-LOCATION:Kraken Community Iceplex\, 925 Westlake Ave N\, Seattle\, WA 98109
-DESCRIPTION:Register at: https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-05-24&sport_ids=20
-URL:https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-05-24&sport_ids=20
-DTSTAMP:20260528T062343Z
-END:VEVENT
-BEGIN:VEVENT
-UID:29e58d8ed7b26582d435fbdbdfd1d5e0@krakencommunityiceplex.com
-SUMMARY:Stick & Puck (Female only)
-DTSTART:20260524T221500Z
-DTEND:20260524T233000Z
 LOCATION:Kraken Community Iceplex\, 925 Westlake Ave N\, Seattle\, WA 98109
 DESCRIPTION:Register at: https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-05-24&sport_ids=20
 URL:https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-05-24&sport_ids=20
@@ -957,40 +897,10 @@ URL:https://member.daysmartrecreation.com/#/online/kraken/event-registration?dat
 DTSTAMP:20260528T062343Z
 END:VEVENT
 BEGIN:VEVENT
-UID:b078289dffefc356156e5a39172668dd@krakencommunityiceplex.com
-SUMMARY:LTP Family Stick & Puck (14 and under)
-DTSTART:20260531T153000Z
-DTEND:20260531T164500Z
-LOCATION:Kraken Community Iceplex\, 925 Westlake Ave N\, Seattle\, WA 98109
-DESCRIPTION:Register at: https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-05-31&sport_ids=20
-URL:https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-05-31&sport_ids=20
-DTSTAMP:20260528T062343Z
-END:VEVENT
-BEGIN:VEVENT
 UID:2ab3794dfbd78dd97028ad229455e4b1@krakencommunityiceplex.com
 SUMMARY:Stick & Puck
 DTSTART:20260531T173000Z
 DTEND:20260531T184500Z
-LOCATION:Kraken Community Iceplex\, 925 Westlake Ave N\, Seattle\, WA 98109
-DESCRIPTION:Register at: https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-05-31&sport_ids=20
-URL:https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-05-31&sport_ids=20
-DTSTAMP:20260528T062343Z
-END:VEVENT
-BEGIN:VEVENT
-UID:f1352e50ead18f1e6fe094089ee7be1a@krakencommunityiceplex.com
-SUMMARY:Stick & Puck (Female only)
-DTSTART:20260531T183000Z
-DTEND:20260531T193000Z
-LOCATION:Kraken Community Iceplex\, 925 Westlake Ave N\, Seattle\, WA 98109
-DESCRIPTION:Register at: https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-05-31&sport_ids=20
-URL:https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-05-31&sport_ids=20
-DTSTAMP:20260528T062343Z
-END:VEVENT
-BEGIN:VEVENT
-UID:06b6daca30496778f93ee2fa6b45a666@krakencommunityiceplex.com
-SUMMARY:LTP Family Stick & Puck (14 and under)
-DTSTART:20260531T220000Z
-DTEND:20260531T230000Z
 LOCATION:Kraken Community Iceplex\, 925 Westlake Ave N\, Seattle\, WA 98109
 DESCRIPTION:Register at: https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-05-31&sport_ids=20
 URL:https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-05-31&sport_ids=20
@@ -1414,16 +1324,6 @@ DTEND:20260612T001500Z
 LOCATION:Kraken Community Iceplex\, 925 Westlake Ave N\, Seattle\, WA 98109
 DESCRIPTION:Register at: https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-06-11&sport_ids=20
 URL:https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-06-11&sport_ids=20
-DTSTAMP:20260528T062343Z
-END:VEVENT
-BEGIN:VEVENT
-UID:818bb494a9a0b64bd144fcc41dc5fef9@krakencommunityiceplex.com
-SUMMARY:LTP Family Stick & Puck (14 and under)
-DTSTART:20260613T013000Z
-DTEND:20260613T030000Z
-LOCATION:Kraken Community Iceplex\, 925 Westlake Ave N\, Seattle\, WA 98109
-DESCRIPTION:Register at: https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-06-12&sport_ids=20
-URL:https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-06-12&sport_ids=20
 DTSTAMP:20260528T062343Z
 END:VEVENT
 BEGIN:VEVENT
