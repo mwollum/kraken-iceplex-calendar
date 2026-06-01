@@ -10,12 +10,13 @@ Usage:
     python3 kraken_calendar.py --sport hockey     # hockey only
     python3 kraken_calendar.py --sport skate      # public skate only
     python3 kraken_calendar.py --sport all        # every event on the calendar
-    python3 kraken_calendar.py --days 60          # next 60 days (default: 90)
+    python3 kraken_calendar.py --days 60          # next 60 days (default: 30)
 """
 
 import argparse
 import hashlib
 import sys
+import time
 import urllib.request
 import urllib.parse
 import json
@@ -29,7 +30,8 @@ SPORT_HOCKEY = 20
 SPORT_PUBLIC_SKATE = 30
 
 
-def fetch_events(start: datetime, end: datetime) -> list[dict]:
+def fetch_events(start: datetime, end: datetime,
+                 timeout: int = 60, retries: int = 4) -> list[dict]:
     params = urllib.parse.urlencode({
         "start": start.strftime("%Y-%m-%d"),
         "end": end.strftime("%Y-%m-%d"),
@@ -37,8 +39,20 @@ def fetch_events(start: datetime, end: datetime) -> list[dict]:
     })
     url = f"{ENDPOINT}?{params}"
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(req, timeout=15) as resp:
-        return json.loads(resp.read())
+
+    last_err = None
+    for attempt in range(1, retries + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                return json.loads(resp.read())
+        except Exception as e:
+            last_err = e
+            if attempt < retries:
+                backoff = 2 ** (attempt - 1)  # 1s, 2s, 4s, ...
+                print(f"  attempt {attempt}/{retries} failed ({e}); "
+                      f"retrying in {backoff}s...", file=sys.stderr)
+                time.sleep(backoff)
+    raise last_err
 
 
 def to_ics_dt(iso: str) -> str:
@@ -115,8 +129,8 @@ def main():
     parser.add_argument("--sport", choices=["hockey", "skate", "all", "all-variants"],
                         default="all-variants",
                         help="Which calendar to generate (default: all three variants)")
-    parser.add_argument("--days", type=int, default=90,
-                        help="Days ahead to fetch (default: 90)")
+    parser.add_argument("--days", type=int, default=30,
+                        help="Days ahead to fetch (default: 30)")
     parser.add_argument("--out", default=None,
                         help="Output filename (only used with --sport hockey/skate/all)")
     args = parser.parse_args()
