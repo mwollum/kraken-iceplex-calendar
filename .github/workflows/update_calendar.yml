@@ -21,7 +21,7 @@ jobs:
           python-version: "3.11"
 
       - name: Generate ICS files
-        run: python3 kraken_calendar.py --days 90
+        run: python3 kraken_calendar.py --days 30
 
       - name: Commit updated calendars
         run: |
