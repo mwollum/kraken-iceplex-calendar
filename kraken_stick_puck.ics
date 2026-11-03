@@ -5,26 +5,26 @@ X-WR-CALNAME:Kraken Iceplex — Stick & Puck
 X-WR-TIMEZONE:America/Los_Angeles
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-LAST-MODIFIED:20261102T172827Z
+LAST-MODIFIED:20261103T152954Z
 BEGIN:VEVENT
-UID:9f61c7b6f66cc4f28a9a517c8a82b4b6@krakencommunityiceplex.com
+UID:0f078b797ab276fa0c637ae053e82a58@krakencommunityiceplex.com
 SUMMARY:Stick & Puck
-DTSTART:20261102T213000Z
+DTSTART:20261102T210000Z
 DTEND:20261102T223000Z
 LOCATION:Kraken Community Iceplex\, 925 Westlake Ave N\, Seattle\, WA 98109
 DESCRIPTION:Register at: https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-11-02&sport_ids=20
 URL:https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-11-02&sport_ids=20
-DTSTAMP:20261102T172827Z
+DTSTAMP:20261103T152954Z
 END:VEVENT
 BEGIN:VEVENT
-UID:17105d3584566f9fc817ab38a33bddb6@krakencommunityiceplex.com
+UID:ee09e14d6e896c88e4022439cd36db5f@krakencommunityiceplex.com
 SUMMARY:Stick & Puck
-DTSTART:20261103T211500Z
-DTEND:20261103T224500Z
+DTSTART:20261103T210000Z
+DTEND:20261103T223000Z
 LOCATION:Kraken Community Iceplex\, 925 Westlake Ave N\, Seattle\, WA 98109
 DESCRIPTION:Register at: https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-11-03&sport_ids=20
 URL:https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-11-03&sport_ids=20
-DTSTAMP:20261102T172827Z
+DTSTAMP:20261103T152954Z
 END:VEVENT
 BEGIN:VEVENT
 UID:9fffffb326cf8d9fe5a5977c577705bf@krakencommunityiceplex.com
@@ -34,7 +34,7 @@ DTEND:20261104T183000Z
 LOCATION:Kraken Community Iceplex\, 925 Westlake Ave N\, Seattle\, WA 98109
 DESCRIPTION:Register at: https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-11-04&sport_ids=20
 URL:https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-11-04&sport_ids=20
-DTSTAMP:20261102T172827Z
+DTSTAMP:20261103T152954Z
 END:VEVENT
 BEGIN:VEVENT
 UID:0b176af31fbee3005132f4e44682562a@krakencommunityiceplex.com
@@ -44,7 +44,7 @@ DTEND:20261104T204500Z
 LOCATION:Kraken Community Iceplex\, 925 Westlake Ave N\, Seattle\, WA 98109
 DESCRIPTION:Register at: https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-11-04&sport_ids=20
 URL:https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-11-04&sport_ids=20
-DTSTAMP:20261102T172827Z
+DTSTAMP:20261103T152954Z
 END:VEVENT
 BEGIN:VEVENT
 UID:3de8f6b926cedfb0afb351b0ffd158f3@krakencommunityiceplex.com
@@ -54,7 +54,7 @@ DTEND:20261106T231500Z
 LOCATION:Kraken Community Iceplex\, 925 Westlake Ave N\, Seattle\, WA 98109
 DESCRIPTION:Register at: https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-11-06&sport_ids=20
 URL:https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-11-06&sport_ids=20
-DTSTAMP:20261102T172827Z
+DTSTAMP:20261103T152954Z
 END:VEVENT
 BEGIN:VEVENT
 UID:ac244d3ddc3f8001ee4ddc8e18941147@krakencommunityiceplex.com
@@ -64,6 +64,6 @@ DTEND:20261109T201500Z
 LOCATION:Kraken Community Iceplex\, 925 Westlake Ave N\, Seattle\, WA 98109
 DESCRIPTION:Register at: https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-11-09&sport_ids=20
 URL:https://member.daysmartrecreation.com/#/online/kraken/event-registration?date=2026-11-09&sport_ids=20
-DTSTAMP:20261102T172827Z
+DTSTAMP:20261103T152954Z
 END:VEVENT
 END:VCALENDAR
